@@ -38,10 +38,10 @@ int main(){
     case 0 ... 49:
         printf("F !");
         break;
-    case 50 ... 55:
+    case 50 ... 54:
         printf("D !");
         break;
-    case 56 ... 60:
+    case 55 ... 60:
         printf("D+ !");
         break;
     case 61 ... 65:
