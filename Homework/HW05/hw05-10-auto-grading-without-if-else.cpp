@@ -27,3 +27,40 @@
     Output:
         F !
 */
+#include <stdio.h>
+int main(){
+    int score;
+    printf("Test case:\n");
+    printf("enter score :\n");
+    scanf("%d",&score);
+    switch (score)
+    {
+    case 0 ... 49:
+        printf("F");
+        break;
+    case 50 ... 55:
+        printf("D");
+        break;
+    case 56 ... 60:
+        printf("D+");
+        break;
+    case 61 ... 65:
+        printf("C");
+        break;
+    case 66 ... 70:
+        printf("C+");
+        break;
+    case 71 ... 75:
+        printf("B");
+        break;
+    case 76 ... 80:
+        printf("B+");
+        break;
+    case 81 ... 100:
+        printf("A");
+        break;
+    default:
+        printf("Invalid Score");
+        break;
+    }
+}
