@@ -53,10 +53,10 @@ int main(){
     case 71 ... 75:
         printf("B !");
         break;
-    case 76 ... 80:
+    case 76 ... 79:
         printf("B+ !");
         break;
-    case 81 ... 100:
+    case 80 ... 100:
         printf("A !");
         break;
     default:
